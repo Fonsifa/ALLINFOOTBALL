@@ -87,18 +87,20 @@
             // 
             // tabSearch
             // 
-            this.tabSearch.Location = new System.Drawing.Point(4, 21);
+            this.tabSearch.Location = new System.Drawing.Point(4, 25);
+            this.tabSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabSearch.Name = "tabSearch";
-            this.tabSearch.Size = new System.Drawing.Size(748, 430);
+            this.tabSearch.Size = new System.Drawing.Size(1000, 540);
             this.tabSearch.TabIndex = 3;
             this.tabSearch.Text = "数据查询";
             this.tabSearch.UseVisualStyleBackColor = true;
             // 
             // tabData
             // 
-            this.tabData.Location = new System.Drawing.Point(4, 21);
+            this.tabData.Location = new System.Drawing.Point(4, 25);
+            this.tabData.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabData.Name = "tabData";
-            this.tabData.Size = new System.Drawing.Size(748, 430);
+            this.tabData.Size = new System.Drawing.Size(1000, 540);
             this.tabData.TabIndex = 2;
             this.tabData.Text = "数据管理";
             this.tabData.UseVisualStyleBackColor = true;
@@ -115,19 +117,21 @@
             this.tabOnline.Controls.Add(this.btnKickOut);
             this.tabOnline.Controls.Add(this.lvFriends);
             this.tabOnline.Controls.Add(this.btnWarning);
-            this.tabOnline.Location = new System.Drawing.Point(4, 21);
+            this.tabOnline.Location = new System.Drawing.Point(4, 25);
+            this.tabOnline.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabOnline.Name = "tabOnline";
-            this.tabOnline.Padding = new System.Windows.Forms.Padding(3);
-            this.tabOnline.Size = new System.Drawing.Size(748, 430);
+            this.tabOnline.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabOnline.Size = new System.Drawing.Size(1000, 540);
             this.tabOnline.TabIndex = 1;
             this.tabOnline.Text = "在线管理";
             this.tabOnline.UseVisualStyleBackColor = true;
             // 
             // btnYesTalk
             // 
-            this.btnYesTalk.Location = new System.Drawing.Point(86, 399);
+            this.btnYesTalk.Location = new System.Drawing.Point(115, 499);
+            this.btnYesTalk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnYesTalk.Name = "btnYesTalk";
-            this.btnYesTalk.Size = new System.Drawing.Size(44, 23);
+            this.btnYesTalk.Size = new System.Drawing.Size(59, 29);
             this.btnYesTalk.TabIndex = 32;
             this.btnYesTalk.Text = "恢复";
             this.btnYesTalk.UseVisualStyleBackColor = true;
@@ -136,44 +140,49 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(6, 344);
+            this.label11.Location = new System.Drawing.Point(8, 430);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 12);
+            this.label11.Size = new System.Drawing.Size(82, 15);
             this.label11.TabIndex = 31;
             this.label11.Text = "惩罚原因↓";
             // 
             // txtPunish
             // 
-            this.txtPunish.Location = new System.Drawing.Point(6, 359);
+            this.txtPunish.Location = new System.Drawing.Point(8, 449);
+            this.txtPunish.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPunish.Multiline = true;
             this.txtPunish.Name = "txtPunish";
-            this.txtPunish.Size = new System.Drawing.Size(175, 34);
+            this.txtPunish.Size = new System.Drawing.Size(232, 42);
             this.txtPunish.TabIndex = 27;
             this.txtPunish.Text = "惩罚原因";
             // 
             // lblOnlineCount
             // 
             this.lblOnlineCount.AutoSize = true;
-            this.lblOnlineCount.Location = new System.Drawing.Point(167, 344);
+            this.lblOnlineCount.Location = new System.Drawing.Point(223, 430);
+            this.lblOnlineCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblOnlineCount.Name = "lblOnlineCount";
-            this.lblOnlineCount.Size = new System.Drawing.Size(11, 12);
+            this.lblOnlineCount.Size = new System.Drawing.Size(15, 15);
             this.lblOnlineCount.TabIndex = 30;
             this.lblOnlineCount.Text = "0";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(92, 344);
+            this.label9.Location = new System.Drawing.Point(123, 430);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(77, 12);
+            this.label9.Size = new System.Drawing.Size(97, 15);
             this.label9.TabIndex = 29;
             this.label9.Text = "总在线人数：";
             // 
             // btnNoTalk
             // 
-            this.btnNoTalk.Location = new System.Drawing.Point(46, 399);
+            this.btnNoTalk.Location = new System.Drawing.Point(61, 499);
+            this.btnNoTalk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnNoTalk.Name = "btnNoTalk";
-            this.btnNoTalk.Size = new System.Drawing.Size(37, 23);
+            this.btnNoTalk.Size = new System.Drawing.Size(49, 29);
             this.btnNoTalk.TabIndex = 28;
             this.btnNoTalk.Text = "禁言";
             this.btnNoTalk.UseVisualStyleBackColor = true;
@@ -188,18 +197,21 @@
             this.groupBox1.Controls.Add(this.btnWatch);
             this.groupBox1.Controls.Add(this.txtPort);
             this.groupBox1.Controls.Add(this.txtIP);
-            this.groupBox1.Location = new System.Drawing.Point(189, 3);
+            this.groupBox1.Location = new System.Drawing.Point(252, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(554, 424);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(739, 530);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "聊天区域";
             // 
             // btnClearShow
             // 
-            this.btnClearShow.Location = new System.Drawing.Point(416, 395);
+            this.btnClearShow.Location = new System.Drawing.Point(555, 494);
+            this.btnClearShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClearShow.Name = "btnClearShow";
-            this.btnClearShow.Size = new System.Drawing.Size(62, 23);
+            this.btnClearShow.Size = new System.Drawing.Size(83, 29);
             this.btnClearShow.TabIndex = 26;
             this.btnClearShow.Text = "清 屏";
             this.btnClearShow.UseVisualStyleBackColor = true;
@@ -207,17 +219,19 @@
             // 
             // txtInput
             // 
-            this.txtInput.Location = new System.Drawing.Point(6, 273);
+            this.txtInput.Location = new System.Drawing.Point(8, 341);
+            this.txtInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtInput.Multiline = true;
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(540, 117);
+            this.txtInput.Size = new System.Drawing.Size(719, 145);
             this.txtInput.TabIndex = 20;
             // 
             // btnSendMsg
             // 
-            this.btnSendMsg.Location = new System.Drawing.Point(483, 395);
+            this.btnSendMsg.Location = new System.Drawing.Point(644, 494);
+            this.btnSendMsg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSendMsg.Name = "btnSendMsg";
-            this.btnSendMsg.Size = new System.Drawing.Size(63, 23);
+            this.btnSendMsg.Size = new System.Drawing.Size(84, 29);
             this.btnSendMsg.TabIndex = 19;
             this.btnSendMsg.Text = "发送消息";
             this.btnSendMsg.UseVisualStyleBackColor = true;
@@ -226,45 +240,51 @@
             // txtShow
             // 
             this.txtShow.BackColor = System.Drawing.Color.White;
-            this.txtShow.Location = new System.Drawing.Point(6, 48);
+            this.txtShow.Location = new System.Drawing.Point(8, 60);
+            this.txtShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtShow.Multiline = true;
             this.txtShow.Name = "txtShow";
             this.txtShow.ReadOnly = true;
             this.txtShow.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.txtShow.Size = new System.Drawing.Size(540, 219);
+            this.txtShow.Size = new System.Drawing.Size(719, 273);
             this.txtShow.TabIndex = 18;
             this.txtShow.Text = "聊天信息：";
+            this.txtShow.TextChanged += new System.EventHandler(this.txtShow_TextChanged);
             // 
             // btnWatch
             // 
-            this.btnWatch.Location = new System.Drawing.Point(158, 17);
+            this.btnWatch.Location = new System.Drawing.Point(211, 21);
+            this.btnWatch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnWatch.Name = "btnWatch";
-            this.btnWatch.Size = new System.Drawing.Size(75, 23);
+            this.btnWatch.Size = new System.Drawing.Size(100, 29);
             this.btnWatch.TabIndex = 17;
             this.btnWatch.Text = "启动监听";
             this.btnWatch.UseVisualStyleBackColor = true;
             // 
             // txtPort
             // 
-            this.txtPort.Location = new System.Drawing.Point(110, 20);
+            this.txtPort.Location = new System.Drawing.Point(147, 25);
+            this.txtPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPort.Name = "txtPort";
-            this.txtPort.Size = new System.Drawing.Size(41, 21);
+            this.txtPort.Size = new System.Drawing.Size(53, 25);
             this.txtPort.TabIndex = 16;
             this.txtPort.Text = "10001";
             // 
             // txtIP
             // 
-            this.txtIP.Location = new System.Drawing.Point(6, 20);
+            this.txtIP.Location = new System.Drawing.Point(8, 25);
+            this.txtIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtIP.Name = "txtIP";
-            this.txtIP.Size = new System.Drawing.Size(100, 21);
+            this.txtIP.Size = new System.Drawing.Size(132, 25);
             this.txtIP.TabIndex = 15;
             this.txtIP.Text = "127.0.0.1";
             // 
             // btnKickOut
             // 
-            this.btnKickOut.Location = new System.Drawing.Point(133, 399);
+            this.btnKickOut.Location = new System.Drawing.Point(177, 499);
+            this.btnKickOut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnKickOut.Name = "btnKickOut";
-            this.btnKickOut.Size = new System.Drawing.Size(44, 23);
+            this.btnKickOut.Size = new System.Drawing.Size(59, 29);
             this.btnKickOut.TabIndex = 27;
             this.btnKickOut.Text = "踢人";
             this.btnKickOut.UseVisualStyleBackColor = true;
@@ -274,18 +294,20 @@
             // 
             this.lvFriends.Font = new System.Drawing.Font("微软雅黑", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lvFriends.HideSelection = false;
-            this.lvFriends.Location = new System.Drawing.Point(6, 7);
+            this.lvFriends.Location = new System.Drawing.Point(8, 9);
+            this.lvFriends.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lvFriends.Name = "lvFriends";
-            this.lvFriends.Size = new System.Drawing.Size(177, 334);
+            this.lvFriends.Size = new System.Drawing.Size(235, 416);
             this.lvFriends.TabIndex = 2;
             this.lvFriends.UseCompatibleStateImageBehavior = false;
             this.lvFriends.View = System.Windows.Forms.View.List;
             // 
             // btnWarning
             // 
-            this.btnWarning.Location = new System.Drawing.Point(6, 399);
+            this.btnWarning.Location = new System.Drawing.Point(8, 499);
+            this.btnWarning.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnWarning.Name = "btnWarning";
-            this.btnWarning.Size = new System.Drawing.Size(37, 23);
+            this.btnWarning.Size = new System.Drawing.Size(49, 29);
             this.btnWarning.TabIndex = 26;
             this.btnWarning.Text = "警告";
             this.btnWarning.UseVisualStyleBackColor = true;
@@ -304,19 +326,21 @@
             this.tabRunM.Controls.Add(this.btnClose);
             this.tabRunM.Controls.Add(this.btnPause);
             this.tabRunM.Controls.Add(this.groupBox3);
-            this.tabRunM.Location = new System.Drawing.Point(4, 21);
+            this.tabRunM.Location = new System.Drawing.Point(4, 25);
+            this.tabRunM.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabRunM.Name = "tabRunM";
-            this.tabRunM.Padding = new System.Windows.Forms.Padding(3);
-            this.tabRunM.Size = new System.Drawing.Size(748, 430);
+            this.tabRunM.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabRunM.Size = new System.Drawing.Size(1000, 540);
             this.tabRunM.TabIndex = 0;
             this.tabRunM.Text = "运行管理";
             this.tabRunM.UseVisualStyleBackColor = true;
             // 
             // btnBegin
             // 
-            this.btnBegin.Location = new System.Drawing.Point(77, 396);
+            this.btnBegin.Location = new System.Drawing.Point(103, 495);
+            this.btnBegin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBegin.Name = "btnBegin";
-            this.btnBegin.Size = new System.Drawing.Size(37, 23);
+            this.btnBegin.Size = new System.Drawing.Size(49, 29);
             this.btnBegin.TabIndex = 10;
             this.btnBegin.Text = "开始";
             this.btnBegin.UseVisualStyleBackColor = true;
@@ -325,9 +349,10 @@
             // chkAlReg
             // 
             this.chkAlReg.AutoSize = true;
-            this.chkAlReg.Location = new System.Drawing.Point(373, 398);
+            this.chkAlReg.Location = new System.Drawing.Point(497, 498);
+            this.chkAlReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkAlReg.Name = "chkAlReg";
-            this.chkAlReg.Size = new System.Drawing.Size(48, 16);
+            this.chkAlReg.Size = new System.Drawing.Size(59, 19);
             this.chkAlReg.TabIndex = 9;
             this.chkAlReg.Text = "注册";
             this.chkAlReg.UseVisualStyleBackColor = true;
@@ -335,9 +360,10 @@
             // chkAlLogin
             // 
             this.chkAlLogin.AutoSize = true;
-            this.chkAlLogin.Location = new System.Drawing.Point(309, 398);
+            this.chkAlLogin.Location = new System.Drawing.Point(412, 498);
+            this.chkAlLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkAlLogin.Name = "chkAlLogin";
-            this.chkAlLogin.Size = new System.Drawing.Size(48, 16);
+            this.chkAlLogin.Size = new System.Drawing.Size(59, 19);
             this.chkAlLogin.TabIndex = 8;
             this.chkAlLogin.Text = "登陆";
             this.chkAlLogin.UseVisualStyleBackColor = true;
@@ -345,9 +371,10 @@
             // chkAlConnect
             // 
             this.chkAlConnect.AutoSize = true;
-            this.chkAlConnect.Location = new System.Drawing.Point(255, 398);
+            this.chkAlConnect.Location = new System.Drawing.Point(340, 498);
+            this.chkAlConnect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkAlConnect.Name = "chkAlConnect";
-            this.chkAlConnect.Size = new System.Drawing.Size(48, 16);
+            this.chkAlConnect.Size = new System.Drawing.Size(59, 19);
             this.chkAlConnect.TabIndex = 7;
             this.chkAlConnect.Text = "连接";
             this.chkAlConnect.UseVisualStyleBackColor = true;
@@ -355,26 +382,29 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(183, 400);
+            this.label8.Location = new System.Drawing.Point(244, 500);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 12);
+            this.label8.Size = new System.Drawing.Size(82, 15);
             this.label8.TabIndex = 6;
             this.label8.Text = "允许用户：";
             // 
             // btnSaveLog
             // 
-            this.btnSaveLog.Location = new System.Drawing.Point(264, 363);
+            this.btnSaveLog.Location = new System.Drawing.Point(352, 454);
+            this.btnSaveLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSaveLog.Name = "btnSaveLog";
-            this.btnSaveLog.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveLog.Size = new System.Drawing.Size(100, 29);
             this.btnSaveLog.TabIndex = 5;
             this.btnSaveLog.Text = "保存日志";
             this.btnSaveLog.UseVisualStyleBackColor = true;
             // 
             // btnClearLog
             // 
-            this.btnClearLog.Location = new System.Drawing.Point(179, 363);
+            this.btnClearLog.Location = new System.Drawing.Point(239, 454);
+            this.btnClearLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClearLog.Name = "btnClearLog";
-            this.btnClearLog.Size = new System.Drawing.Size(75, 23);
+            this.btnClearLog.Size = new System.Drawing.Size(100, 29);
             this.btnClearLog.TabIndex = 4;
             this.btnClearLog.Text = "清 屏";
             this.btnClearLog.UseVisualStyleBackColor = true;
@@ -382,9 +412,11 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txtLog);
-            this.groupBox2.Location = new System.Drawing.Point(176, 15);
+            this.groupBox2.Location = new System.Drawing.Point(235, 19);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(566, 342);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(755, 428);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "服务器日志：";
@@ -392,18 +424,20 @@
             // txtLog
             // 
             this.txtLog.BackColor = System.Drawing.Color.White;
-            this.txtLog.Location = new System.Drawing.Point(6, 15);
+            this.txtLog.Location = new System.Drawing.Point(8, 19);
+            this.txtLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtLog.Multiline = true;
             this.txtLog.Name = "txtLog";
             this.txtLog.ReadOnly = true;
-            this.txtLog.Size = new System.Drawing.Size(554, 318);
+            this.txtLog.Size = new System.Drawing.Size(737, 396);
             this.txtLog.TabIndex = 0;
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(120, 396);
+            this.btnClose.Location = new System.Drawing.Point(160, 495);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(44, 23);
+            this.btnClose.Size = new System.Drawing.Size(59, 29);
             this.btnClose.TabIndex = 2;
             this.btnClose.Text = "关闭";
             this.btnClose.UseVisualStyleBackColor = true;
@@ -411,9 +445,10 @@
             // 
             // btnPause
             // 
-            this.btnPause.Location = new System.Drawing.Point(24, 396);
+            this.btnPause.Location = new System.Drawing.Point(32, 495);
+            this.btnPause.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPause.Name = "btnPause";
-            this.btnPause.Size = new System.Drawing.Size(48, 23);
+            this.btnPause.Size = new System.Drawing.Size(64, 29);
             this.btnPause.TabIndex = 1;
             this.btnPause.Text = "暂停";
             this.btnPause.UseVisualStyleBackColor = true;
@@ -436,9 +471,11 @@
             this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.txtStatu);
             this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Location = new System.Drawing.Point(15, 16);
+            this.groupBox3.Location = new System.Drawing.Point(20, 20);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(155, 372);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(207, 465);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "服务器信息";
@@ -446,9 +483,10 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(123, 343);
+            this.label10.Location = new System.Drawing.Point(164, 429);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(17, 12);
+            this.label10.Size = new System.Drawing.Size(22, 15);
             this.label10.TabIndex = 14;
             this.label10.Text = "人";
             // 
@@ -463,120 +501,134 @@
             "20",
             "10",
             "5"});
-            this.cboMaxCount.Location = new System.Drawing.Point(9, 340);
+            this.cboMaxCount.Location = new System.Drawing.Point(12, 425);
+            this.cboMaxCount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboMaxCount.Name = "cboMaxCount";
-            this.cboMaxCount.Size = new System.Drawing.Size(109, 20);
+            this.cboMaxCount.Size = new System.Drawing.Size(144, 23);
             this.cboMaxCount.TabIndex = 13;
             this.cboMaxCount.SelectedIndexChanged += new System.EventHandler(this.cboMaxCount_SelectedIndexChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(7, 324);
+            this.label7.Location = new System.Drawing.Point(9, 405);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(101, 12);
+            this.label7.Size = new System.Drawing.Size(128, 15);
             this.label7.TabIndex = 12;
             this.label7.Text = "最大负荷(限制)：";
             // 
             // txtNowCount
             // 
-            this.txtNowCount.Location = new System.Drawing.Point(9, 290);
+            this.txtNowCount.Location = new System.Drawing.Point(12, 362);
+            this.txtNowCount.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNowCount.Name = "txtNowCount";
-            this.txtNowCount.Size = new System.Drawing.Size(140, 21);
+            this.txtNowCount.Size = new System.Drawing.Size(185, 25);
             this.txtNowCount.TabIndex = 11;
             this.txtNowCount.Text = "0";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 274);
+            this.label6.Location = new System.Drawing.Point(9, 342);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(89, 12);
+            this.label6.Size = new System.Drawing.Size(112, 15);
             this.label6.TabIndex = 10;
             this.label6.Text = "当前连接负荷：";
             // 
             // txtSerProtocol
             // 
-            this.txtSerProtocol.Location = new System.Drawing.Point(9, 239);
+            this.txtSerProtocol.Location = new System.Drawing.Point(12, 299);
+            this.txtSerProtocol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSerProtocol.Name = "txtSerProtocol";
-            this.txtSerProtocol.Size = new System.Drawing.Size(140, 21);
+            this.txtSerProtocol.Size = new System.Drawing.Size(185, 25);
             this.txtSerProtocol.TabIndex = 9;
             this.txtSerProtocol.Text = "Tcp";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 223);
+            this.label5.Location = new System.Drawing.Point(9, 279);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 12);
+            this.label5.Size = new System.Drawing.Size(82, 15);
             this.label5.TabIndex = 8;
             this.label5.Text = "访问协议：";
             // 
             // txtSerPort
             // 
-            this.txtSerPort.Location = new System.Drawing.Point(9, 188);
+            this.txtSerPort.Location = new System.Drawing.Point(12, 235);
+            this.txtSerPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSerPort.Name = "txtSerPort";
-            this.txtSerPort.Size = new System.Drawing.Size(140, 21);
+            this.txtSerPort.Size = new System.Drawing.Size(185, 25);
             this.txtSerPort.TabIndex = 7;
             this.txtSerPort.Text = "51001";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 172);
+            this.label4.Location = new System.Drawing.Point(9, 215);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 12);
+            this.label4.Size = new System.Drawing.Size(52, 15);
             this.label4.TabIndex = 6;
             this.label4.Text = "端口：";
             // 
             // txtSerIP
             // 
-            this.txtSerIP.Location = new System.Drawing.Point(9, 139);
+            this.txtSerIP.Location = new System.Drawing.Point(12, 174);
+            this.txtSerIP.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSerIP.Name = "txtSerIP";
-            this.txtSerIP.Size = new System.Drawing.Size(140, 21);
+            this.txtSerIP.Size = new System.Drawing.Size(185, 25);
             this.txtSerIP.TabIndex = 5;
             this.txtSerIP.Text = "127.0.0.1";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 123);
+            this.label3.Location = new System.Drawing.Point(9, 154);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.Size = new System.Drawing.Size(83, 15);
             this.label3.TabIndex = 4;
             this.label3.Text = "服务器IP：";
             // 
             // txtSerName
             // 
-            this.txtSerName.Location = new System.Drawing.Point(9, 88);
+            this.txtSerName.Location = new System.Drawing.Point(12, 110);
+            this.txtSerName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSerName.Name = "txtSerName";
-            this.txtSerName.Size = new System.Drawing.Size(140, 21);
+            this.txtSerName.Size = new System.Drawing.Size(185, 25);
             this.txtSerName.TabIndex = 3;
             this.txtSerName.Text = "JZPC";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 72);
+            this.label2.Location = new System.Drawing.Point(9, 90);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 12);
+            this.label2.Size = new System.Drawing.Size(97, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "服务器名称：";
             // 
             // txtStatu
             // 
-            this.txtStatu.Location = new System.Drawing.Point(9, 37);
+            this.txtStatu.Location = new System.Drawing.Point(12, 46);
+            this.txtStatu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtStatu.Name = "txtStatu";
-            this.txtStatu.Size = new System.Drawing.Size(140, 21);
+            this.txtStatu.Size = new System.Drawing.Size(185, 25);
             this.txtStatu.TabIndex = 1;
             this.txtStatu.Text = "停止";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 21);
+            this.label1.Location = new System.Drawing.Point(9, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
+            this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "状态：";
             // 
@@ -586,18 +638,20 @@
             this.tabControl1.Controls.Add(this.tabOnline);
             this.tabControl1.Controls.Add(this.tabData);
             this.tabControl1.Controls.Add(this.tabSearch);
-            this.tabControl1.Location = new System.Drawing.Point(12, 12);
+            this.tabControl1.Location = new System.Drawing.Point(16, 15);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(756, 455);
+            this.tabControl1.Size = new System.Drawing.Size(1008, 569);
             this.tabControl1.TabIndex = 2;
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(775, 474);
+            this.ClientSize = new System.Drawing.Size(1033, 592);
             this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "主面板";

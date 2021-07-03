@@ -509,5 +509,10 @@ namespace Fei
         {
             txtShow.Text = "";
         }
+
+        private void txtShow_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

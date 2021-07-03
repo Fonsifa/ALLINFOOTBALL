@@ -1,0 +1,52 @@
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\bin\Debug\Fei.exe.config
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\bin\Debug\Fei.exe
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\bin\Debug\Fei.pdb
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\bin\Debug\FeiMsgType.dll
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\bin\Debug\FeiMsgType.pdb
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.csprojAssemblyReference.cache
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.FrmMain.resources
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.Properties.Resources.resources
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.csproj.GenerateResource.cache
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.csproj.CoreCompileInputs.cache
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.csproj.CopyComplete
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.exe
+C:\Users\1179792106\Downloads\google2google-ChatRoom-master\ChatRoom\Fei\obj\Debug\Fei.pdb
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\bin\Debug\Fei.exe.config
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\bin\Debug\Fei.exe
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\bin\Debug\Fei.pdb
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\bin\Debug\FeiMsgType.dll
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\bin\Debug\FeiMsgType.pdb
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.csprojAssemblyReference.cache
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.FrmMain.resources
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.Properties.Resources.resources
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.csproj.GenerateResource.cache
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.csproj.CoreCompileInputs.cache
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.csproj.CopyComplete
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.exe
+C:\Users\1179792106\Documents\Tencent Files\1179792106\FileRecv\Main\Fei\obj\Debug\Fei.pdb
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\bin\Debug\Fei.exe.config
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\bin\Debug\Fei.exe
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\bin\Debug\Fei.pdb
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\bin\Debug\FeiMsgType.dll
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\bin\Debug\FeiMsgType.pdb
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.csprojAssemblyReference.cache
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.FrmMain.resources
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.Properties.Resources.resources
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.csproj.GenerateResource.cache
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.csproj.CoreCompileInputs.cache
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.csproj.CopyComplete
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.exe
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Main\Fei\obj\Debug\Fei.pdb
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\bin\Debug\Fei.exe.config
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\bin\Debug\Fei.exe
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\bin\Debug\Fei.pdb
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\bin\Debug\FeiMsgType.dll
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\bin\Debug\FeiMsgType.pdb
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.csprojAssemblyReference.cache
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.FrmMain.resources
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.Properties.Resources.resources
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.csproj.GenerateResource.cache
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.csproj.CoreCompileInputs.cache
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.csproj.CopyComplete
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.exe
+C:\Users\15637\Desktop\软件构造基础\MAIN\Main\Fei\obj\Debug\Fei.pdb
