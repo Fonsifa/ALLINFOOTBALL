@@ -152,21 +152,6 @@ namespace Fei
         } 
         #endregion
 
-        #region 将在线列表发给每一个在线用户 - SendUserListToEveryone()
-        /// <summary>
-        /// 将在线列表发给每一个在线用户
-        /// </summary>
-        public void SendUserListToEveryone()
-        {
-            string strUserList = GetOnlineUserList();
-            if (strUserList.Length < 3) return;//如果长度小于3则终止方法
-            foreach (ClientConnection conn in dictConnections.Values)
-            {
-                conn.SendMsgOnlineList(strUserList);
-            }
-        } 
-        #endregion
-
         #region 将用户退出消息发给每一个在线用户 - SendUserQuitMsgToEveryone()
         /// <summary>
         /// 将用户退出消息发给每一个在线用户
